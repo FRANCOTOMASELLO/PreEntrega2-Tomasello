@@ -99,7 +99,7 @@ header{
     padding-top: 11px;
     padding-left: 0;
 }
-.h1-section3{
+.section-title1{
     font-size: 50px;
     padding-top: 260px;
     color: rgb(57, 111, 165) ;
@@ -322,6 +322,15 @@ text-align: center;
 
 
 @media (max-width:900px){
+
+    .title-main{
+        font-size: 2.2rem;
+    }
+
+    .video{
+        height: 400px;
+    }
+
     .flex-container{
         flex-direction: column;
     }
@@ -334,8 +343,101 @@ text-align: center;
     .flex-container3{
         flex-direction: column;
     }
-
+    
     .nav-item{
         padding-left: 0%;
+    }  
+    .h1-section{
+        padding-left: 30px;
     }
+    .main-container{
+        padding-left: 35px;
+        padding-right: 20px;
+    }
+  .section-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 70px;
+    background-image: url(../images/aerolineas2.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 500%;
+    height: 500px;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+  }
+  .flex-title{
+    font-size: 40px;
+    padding-right: 30px;
+  }
+
+  .flex-info{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px
+  }
+
+  .section-title1{
+    font-size: 60px;
+    padding-top: 150px;
+    color: rgb(57, 111, 165) ;
+    padding-left: 70px;
+    background-image: url(../images/aeroplus.jpg.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    height: 500px;
+    font-style: oblique;
+    padding-left: 35px;
+  }
+
+  .main-container3{
+    padding-left: 15px;
+  }
+
+  .h1-section2{
+    font-size: 60px;
+    padding-top: 290px;
+    color: rgb(57, 111, 165) ;
+    text-anchor: middle;
+    padding-left: 70px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 450%;
+    height: 500px;
+    font-style: oblique;
+    padding-left: 35px;
+  }
+
+
+  .main-info{
+    padding-right: 30px;
+  }
+
+  .h1-section4{
+    font-size: 3.5rem;
+    padding-top: 80px;
+  }
+
+  .title-flex{
+    padding-right: 30px;
+    padding-top: 100px;
+  }
+  .img-aeroparque{
+    padding-left: 20px;
+  }
+  .img-ezeiza{
+    padding-left: 20px;
+  }
+  .img-cordoba{
+    padding-left: 20px;
+  }
+  .flex-title1{
+    padding-right: 15px;
+  }
+  .flex-info{
+    padding-right: 20px ;
+  }
 }
