@@ -16,7 +16,6 @@ li{
 
 header{
     width: 100%;
-    position: sticky;
 }
 
 
@@ -334,5 +333,9 @@ text-align: center;
     }
     .flex-container3{
         flex-direction: column;
+    }
+
+    .nav-item{
+        padding-left: 0%;
     }
 }
